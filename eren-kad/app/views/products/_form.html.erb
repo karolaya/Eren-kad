@@ -35,6 +35,11 @@
     <%= form.label :category_id %>
     <%= form.number_field :category_id, id: :product_category_id %>
   </div>
+  
+  <div class="field">
+    <%= f.label :image %>
+    <%= f.file_field :image %>
+  </div>
 
   <div class="actions">
     <%= form.submit %>
