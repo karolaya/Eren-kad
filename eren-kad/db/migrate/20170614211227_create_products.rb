@@ -9,5 +9,6 @@ class CreateProducts < ActiveRecord::Migration[5.1]
 
       t.timestamps
     end
+    add_attachment :products, :image
   end
 end
